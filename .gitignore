@@ -1,24 +1,24 @@
+# Large datasets
+*.csv
+*.sav
+*.pt
+*.pth
+*.npy
+
+# Exceptions (keep final models)
+!ML/fk_model.pth
+!ML/ik_model.onnx
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Build files
 build/
 *.exe
 *.dll
 *.obj
-*.o
-*.pdb
+*.lib
 
-__pycache__/
-*.pyc
-
-.pt_tmp/
-*.pt
-*.pth
-
-*.npy
-*.save
-
-external/onnxruntime/
-
-trajectory_*.txt
-scene.txt
-collision_log.txt
-
-.vscode/
+# Logs
+*.log
